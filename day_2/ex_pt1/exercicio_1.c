@@ -32,8 +32,11 @@ int get_idade() {
     else if (idade >= 18 && idade <= 59) {
         printf("Você é um adulto!\n");
     }
-    else { // Idade >= 60
+    else if (idade >= 60){
         printf("Você é um idoso!!\n");
+    }
+    else {
+        printf("Idade invalida!");
     }
 }
 
