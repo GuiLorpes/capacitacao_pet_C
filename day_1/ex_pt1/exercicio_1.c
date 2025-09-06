@@ -7,12 +7,13 @@ int main(void) {
     int b = 4546;
     
     // "%u" = unsigned int
+    // "%hu" = unsigned short
     // "%lld" = long long int
     // "%s" = string 
     // "%c" = char
     // "%i" = int
 
-    printf("%u\n", x);
+    printf("%hu\n", x);
     printf("%lld\n", y);
     printf("%s\n", c);
     printf("%i\n", b);
